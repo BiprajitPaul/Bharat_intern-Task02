@@ -1,0 +1,300 @@
+body {
+    background-color: black;
+}
+
+.forbackGround {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.889), rgba(24, 28, 33, 0.396)), url(/Netflix-Background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.homepage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('/Netflix-Background.jpg');
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; */
+    /* backdrop-filter: brightness(0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 80%;
+
+}
+
+.dropdown {
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: red;
+    font-size: 17px;
+    font-weight: 300;
+    transition: all 0.2s ease;
+    border: none;
+
+}
+
+.submit-btn:hover {
+    background-color: transparent;
+    color: white;
+
+}
+
+.SuscriptionPart {
+    width: 80%;
+    padding: 0 30px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.marketingHeadline {
+
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.joining-Txt {
+    font-size: 1.9rem;
+    margin: 6px 0;
+}
+
+.secondAd_Txt {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.submitBox {
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 20px;
+    background-color: red;
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.submitBox:hover {
+    background-color: rgba(255, 6, 6, 0.546);
+    backdrop-filter: blur(2px);
+
+}
+
+.input-Box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60%;
+}
+
+.submitBox h2 {
+    font-size: 26px;
+}
+
+.input-Box .emailBox {
+    backdrop-filter: brightness(.8);
+    border: 2px solid rgb(126, 126, 126);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-Box .emailBox input {
+    width: 100%;
+    background: transparent;
+    /* backdrop-filter: brightness(0.3); */
+    border: none;
+
+
+}
+
+.input-Box .emailBox input::placeholder {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.content_part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.content_part1 .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87%;
+    width: 90%;
+
+}
+
+.tv-txt-part1 h1,
+p {
+    color: white;
+
+}
+
+.tv-txt-part2 h1,
+p {
+    color: white;
+
+}
+
+.tv-txt-part3 h1,
+p {
+    color: white;
+
+}
+
+.tv-txt-part4 h1,
+p {
+    color: white;
+
+}
+
+.tv-txt-part1 h1 {
+    font-weight: bold;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part2 h1 {
+    font-weight: bold;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part3 h1 {
+    font-weight: bold;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part4 h1 {
+    font-weight: bold;
+    font-size: 3.6rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part1 p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part2 p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part3 p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.tv-txt-part4 p {
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.tv-img-part1 {
+    background: url(https://2.bp.blogspot.com/-kIWPcP77AM8/UDy45R90PFI/AAAAAAAAARs/nua0KwN2vXQ/s1600/still4.jpg);
+
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+hr {
+    color: white;
+}
+
+/* Faq section */
+
+.faq {
+    font-size: 1.5rem;
+    
+    background-color: rgb(70, 70, 70);
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.question {
+    
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question p {
+    font-weight: bolder;
+    color: rgb(251, 251, 251);
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.question i {
+    
+    transition: transform 0.2s ease-in-out;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
+
+.faq.active .question i {
+    transform: rotate(180deg);
+}
+
+.footerInputBox{
+    width: 40%;
+    margin: 0 auto;
+}
+.footerInputBox .submitBox{
+    font-size: 17px;
+}
+.card-text{
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+.card{
+    border: none;
+}
